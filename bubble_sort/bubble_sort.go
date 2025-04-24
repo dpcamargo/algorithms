@@ -13,7 +13,7 @@ func bubbleSort(unsorted []int) {
 }
 
 func main() {
-	arr := []int{5, 3, 7, 1, 2, 8, 6}
+	arr := []int{5, 3, 7, 9, 1, 4, 2, 8, 6, 0}
 	bubbleSort(arr)
 	fmt.Println(arr)
 }
